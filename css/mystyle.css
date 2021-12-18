@@ -1,0 +1,221 @@
+/*This is basically the theme for my opening and the background since each artist have their own themes*/
+body {
+    background-color: #224870;
+    color: #44CFCB;
+}
+/*I wrapped elements that I don't know how to center with <p> and used <h4> as my base text instead*/
+p {
+    text-align: center;
+}
+/*I did this for the images in index.html*/
+p > img {
+    width: 80%;
+    height: auto;
+}
+/*customized my embeds so they won't overflow*/
+iframe {
+    width: 90%;
+    height: 500px;
+}
+/*My base text; adjusted the size, width and more so it is uniform in all sections*/
+h4 {
+    font-size: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;      
+}
+/*Secondary background mostly for design purposes*/
+  #container {
+    background-color: #2A4494;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*This is mostly for my "Announcement" elements. For titling a certain section of my html, etc.*/
+#container h2 {
+    font-family: "Libre Baskerville";
+    text-align:center;
+    color:black;
+}
+/*This will appear on all the subpages and act as the home button*/
+#main_header {
+    position: sticky; top: 10px;
+    background-color:#122C34;
+    border-radius: 30px;
+    opacity: 0.8;
+    background-size: 100% 100%;
+    background-position: absolute;
+    z-index: 2;
+}
+#main_header a {
+    text-decoration: none;
+    color: #44CFCB;
+}
+#main_header h1 { 
+    font-family: "Sofia";
+    text-align: center;
+}
+/*For my opening*/
+#index_subheading_1  h2 {
+    background: #122C34; 
+    width: max-content;
+    color: #4EA5D9;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+#index_subheading_1 p {
+    background-color: #44CFCB;
+    color: #2A4494;
+    border-radius: 20px;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Architects Daughter";
+    font-size: large;
+    contain:content;
+    padding: 20px;
+}
+/*Customized my images for index.html*/
+#preview_img img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*CSS for song title*/
+#Song_title {
+    font-size: 50px; 
+    text-align: center;
+}
+/*So for each artist, the only significant difference is their font, color, etc.*/
+/*For this part, I customize most of the contents of the artist's section*/
+#TUYU {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #fffddc;
+    background-color:#1f2756;
+    font-family: "Indie Flower";
+    background-size: cover;
+    border-radius: 45px;
+    overflow:auto;
+}
+/*This will change the look of my hyperlinks*/
+#TUYU a {
+    background-color: #303a6b;
+    background-size: cover;
+    border-radius: 45px;
+    font-size: 40px;
+    text-decoration: none;
+}
+#TUYU a:visited {
+    color:#de3866;
+}
+#TUYU a:hover {
+    opacity: 0.5;
+    background-color: #9bcbbd;
+    border-radius: 20px;
+}
+/*For every artist the format is almost the same and these will be used on both the index.html and their corresponding subpage*/
+#ZUTOMAYO {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 45px;
+    background-size: cover;
+    background-color: #2f0044;
+    color: #d395d5;
+    font-family: "Caveat";
+}
+#ZUTOMAYO a {
+
+    background-color: #aa01a9;
+    background-size: contain;
+    border-radius: 45px;
+    font-size: 40px;
+    text-decoration: none;
+}
+#ZUTOMAYO a:hover {
+    opacity: 0.5;
+    background-color: #7b46af;
+    border-radius: 20px;
+}
+#ZUTOMAYO a:visited {
+    color: #e7889b;
+}
+#Eve {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size:cover;
+    border-radius: 45px;
+    font-family: "Kaushan Script";
+    color:#52c5fe;
+    background-color: #011931;
+}
+#Eve a {
+    background-color: #040e17;
+    background-size: contain;
+    border-radius: 45px;
+    font-size: 40px;
+    text-decoration: none;
+}
+#Eve a:hover {
+    opacity: 0.5;
+    background-color: #eff8fd;
+    border-radius: 20px;
+}
+#Eve a:visited {
+    color:#3eb2fd;
+}
+#YOASOBI {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #506880;
+    background-color:#f35a76;
+    font-family: "Share Tech Mono";
+    background-size: cover;
+    border-radius: 45px;
+}
+#YOASOBI a {
+    color:blue;
+    background-color: #f1adbb;
+    background-size: contain;
+    border-radius: 45px;
+    font-size: 40px;
+    text-decoration: none;
+}
+#YOASOBI a:hover {
+    opacity: 0.5;
+    background-color: #306a83;
+    border-radius: 20px;
+}
+#YOASOBI a:visited {
+    color:#e24c67;
+}
+#Yorushika {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #e1e8f0;
+    background-color:#544832;
+    font-family: "Merienda";
+    background-size: cover;
+    border-radius: 45px;
+}
+#Yorushika a {
+    color:#edf3fa;
+    background-color: #857a67;
+    background-size: contain;
+    border-radius: 45px;
+    font-size: 40px;
+    text-decoration: none;
+}
+#Yorushika a:hover {
+    opacity: 0.5;
+    background-color: #857a67;
+    border-radius: 20px;
+}
+#Yorushika a:visited {
+    color:#594e38;
+}
